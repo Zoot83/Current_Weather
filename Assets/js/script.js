@@ -37,7 +37,7 @@ function addCityToList(searchEl){
 
 //Gets the api and if it is successful it will add it to the list if not it will display an alert
 function getApi(){
-    var queryURL = "http://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=" + APIKey;
+    var queryURL = "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=" + APIKey;
 
     fetch(queryURL, {
         "method": "Get",
