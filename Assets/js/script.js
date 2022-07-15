@@ -114,7 +114,7 @@ function selectorfunc(class_name,class_value){
 
 function weatherIconLoad(response, refSrc){
     var iconcode = response;
-    var iconurl = "https://openweathermap.org/img/wn/" + iconcode + ".png";
+    var iconurl = "https://openweathermap.org/img/w/" + iconcode + ".png";
     $('#'+refSrc).attr('src', iconurl);
     $('#'+refSrc).attr('hidden', false);
 }
