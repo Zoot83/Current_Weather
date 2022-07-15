@@ -1428,6 +1428,9 @@
     border: 5px solid gray;
     border-radius: 10px;
   }
+   .current-date{
+    font-size:medium
+  }
 
   .image{
     height:140px;
