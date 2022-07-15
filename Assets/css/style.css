@@ -1460,6 +1460,9 @@
   .forecast-text{
     font-size: smaller;
   }
+  .current-date{
+    font-size:medium
+  }
   /* col-md */
   @media screen and (min-width: 768px) {
     .col-md-auto {
